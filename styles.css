@@ -1,0 +1,25 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body{
+    padding: 0;
+    margin: 0%;
+    background: linear-gradient(to right, #033650, #490f5a );
+}
+
+.calculator-grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120, auto) repeat(5, 100px);
+}
+
+.calculator-grid > button {
+    cursor: pointer;
+}
