@@ -7,7 +7,7 @@
 body{
     padding: 0;
     margin: 0%;
-    background: linear-gradient(to right, #033650, #490f5a );
+    background: linear-gradient(to bottom, #1b1b1b, #161616 );
 }
 
 .calculator-grid{
@@ -24,12 +24,16 @@ body{
     cursor: pointer;
     font-size: 2rem;
     border: 1px solid white;
+    border-radius: 10px;
+    margin: 4px;
     outline:none;
     background-color: rgba(178, 239, 243, 0.486);
+    
+    background: radial-gradient(circle, #ffffff, #b1b1b1)
 }
 
 .calculator-grid > button:hover{
-    background-color:  rgba(178, 239, 243, 0.9);
+    background: radial-gradient(circle, #b1b1b1, #ffffff)
 
 }
 
@@ -42,6 +46,8 @@ body{
     background-color: #00000083;
     
     border: 1px solid white;
+    border-radius: 10px;
+    margin: 4px;
 
     display: flex;
     align-items: flex-end;
